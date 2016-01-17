@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1')
+    title カナザワ映画祭オールタイム・ベスト募集
+    link(rel='stylesheet', href='http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+    link(href='./index.css', type='text/css', rel='stylesheet')
+    // TODO: OGP
+  body
+    .wrapper
+      header
+        .pure-u-1-1.pure-u-sm-1-4.logo
+          a(href='/')
+            img(src='http://www.eiganokai.com/images/logo_s.jpg', alt='かなざわ映画の会')
+        .pure-u-1-1.pure-u-sm-3-4
+          .links
+            a(href='/') ホーム
+            a(href='/about') 団体概要
+            a(href='/event') イベント
+            a(href='/about/supporter.html') サポーター募集
+            a(href='//eiganokai.blog.fc2.com/') ブログ
+            a(href='/about/info.html') お問合わせ
+      article
+        h1 カナザワ映画祭オールタイム・ベスト募集
+        section
+          p なんか説明文とか
+          p 説明文説明文説明文説明文
+        section
+          ul
+            each year in years
+              li
+                a.link(href='#year-#{year}') #{year}
+        each year in years
+          section(id='year-#{year}')
+            h2 #{data[year].meta.name}
+            .pure-g
+              .pure-u-1-1.pure-u-sm-2-5
+                img(src='#{data[year].meta.mainVisual}')
+              .pure-u-1-1.pure-u-sm-3-5
+                p.fes-info
+                  i.fa.fa-calendar
+                  | #{data[year].meta.date}
+                p.fes-info なにか他に出す情報があれば...
+            each program in data[year].programs
+              h3
+                a.link(href='#{program.link}') #{program.name}
+              each movie in program.movies
+                .movie
+                  h4
+                    a.link(href='#{movie.link}') #{movie.name}
+                  .pure-g
+                    .pure-u-1-1.pure-u-sm-1-5
+                      img(src='#{movie.visual}')
+                    .pure-u-1-1.pure-u-sm-4-5
+                      each info in movie.info
+                        p.info #{info}
