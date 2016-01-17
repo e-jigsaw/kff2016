@@ -1,0 +1,112 @@
+body {
+  background-color: #ffc;
+}
+.wrapper {
+  margin: 0 auto;
+}
+header {
+  background-color: #fff;
+}
+header .logo {
+  text-align: center;
+  line-height: 0;
+}
+header .links {
+  text-align: center;
+}
+header .links a {
+  margin: 4px;
+  font-size: 10px;
+  color: #090;
+  text-decoration: none;
+}
+header .links a:hover {
+  background-color: #cf0;
+}
+h1 {
+  font-weight: 100;
+  font-size: 1.5em;
+  margin: 0;
+}
+article {
+  background-color: #fff;
+}
+article h2 {
+  border-bottom: 2px #888 solid;
+}
+article h3 {
+  border-left: 8px #888 solid;
+  border-bottom: 2px #888 solid;
+}
+article h4 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+article i {
+  margin-right: 5px;
+}
+article img {
+  width: 100%;
+}
+article .link {
+  color: #000;
+  text-decoration: none;
+}
+article .link:hover {
+  text-decoration: underline;
+}
+article .movie {
+  background-color: #eee;
+  margin-bottom: 2%;
+  padding: 5px;
+}
+article .info {
+  margin: 0;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  font-size: 0.8em;
+  color: #555;
+}
+@media screen and (min-width: 790px) {
+  .wrapper {
+    width: 790px;
+  }
+}
+@media screen and (min-width: 630px) {
+  header .logo {
+    text-align: left;
+  }
+  header .logo img {
+    margin-left: 5px;
+  }
+  header .links {
+    text-align: right;
+  }
+  header .links a {
+    margin: 10px;
+    font-size: 12px;
+  }
+  article {
+    padding: 5%;
+    padding-top: 0;
+  }
+  .fes-info {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .wrapper {
+    width: 414px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .wrapper {
+    width: 375px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .wrapper {
+    width: 320px;
+  }
+}
