@@ -68,6 +68,13 @@ article .info {
   font-size: 0.8em;
   color: #555;
 }
+footer p {
+  color: #aaa;
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
 @media screen and (min-width: 790px) {
   .wrapper {
     width: 790px;
