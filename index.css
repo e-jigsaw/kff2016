@@ -42,6 +42,8 @@ article h4 {
   margin: 0;
   margin-bottom: 5px;
   font-size: 1.1em;
+  font-weight: 100;
+  text-align: center;
 }
 article i {
   margin-right: 5px;
@@ -56,10 +58,12 @@ article .link {
 article .link:hover {
   text-decoration: underline;
 }
+article .poster {
+  margin: 5px;
+}
 article .movie {
+  margin: 5px;
   background-color: #eee;
-  margin-bottom: 2%;
-  padding: 5px;
 }
 article .info {
   margin: 0;
