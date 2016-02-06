@@ -10,6 +10,7 @@
   "scripts": {
     "build:jade": "lsc scripts/build.ls",
     "build:styl": "stylus src --out $npm_package_config_DEST",
+    "build:assets": "cp -rf src/images $npm_package_config_DEST/images",
     "serve": "static -p $npm_package_config_PORT $npm_package_config_DEST",
     "watch": "npm-run-all -p watch:*",
     "watch:jade": "chokidar '+(src/*.jade|src/*.lson)' -c 'npm run build:jade'",
@@ -31,7 +32,7 @@
     "jade": "^1.11.0",
     "livescript": "^1.4.0",
     "node-static": "^0.7.7",
-    "npm-run-all": "^1.4.0",
+    "npm-run-all": "^1.5.1",
     "stylus": "^0.53.0"
   }
 }

@@ -3,7 +3,7 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1')
-    title カナザワ映画祭オールタイム・ベスト募集
+    title #{year}年 | カナザワ映画祭オールタイム・ベスト募集
     link(rel='stylesheet', href='//yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
     link(href='./index.css', type='text/css', rel='stylesheet')
@@ -23,15 +23,27 @@ html
             a(href='//eiganokai.blog.fc2.com/') ブログ
             a(href='/about/info.html') お問合わせ
       article
-        h1 カナザワ映画祭オールタイム・ベスト募集
-        section
-          p なんか説明文とか
-          p 説明文説明文説明文説明文
+        a.link(href='../')
+          h1 カナザワ映画祭オールタイム・ベスト募集
+        h2 #{data.meta.name}
         .pure-g
-          each year in years
-            .pure-u-1-3
-              .poster
-                a(href='./#{year}.html')
-                  img(src='#{data[year].meta.mainVisual}')
+          .pure-u-1-1.pure-u-sm-2-5
+            img(src='#{data.meta.mainVisual}')
+          .pure-u-1-1.pure-u-sm-3-5
+            p.fes-info
+              i.fa.fa-calendar
+              | #{data.meta.date}
+            p.fes-info 説明文説明文説明文
+        each program in data.programs
+          h3
+            a.link(href='#{program.link}') #{program.name}
+          .pure-g
+            each movie in program.movies
+              .pure-u-1-2.pure-u-sm-1-4
+                .movie
+                  a.link(href='#{movie.link}')
+                    .pure-u-1-1
+                      img(src='#{movie.visual}')
+                    h4 #{movie.name}
       footer
         p Copyright &copy; 2007-2016, Kanazawa-Eiga-no-kai All rights reserved.
