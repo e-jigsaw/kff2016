@@ -25,7 +25,8 @@ html
       article
         a.link(href='../')
           h1 カナザワ映画祭オールタイム・ベスト募集
-        h2 #{data.meta.name}
+        a.link(href='#{data.meta.url}')
+          h2 #{data.meta.name}
         .pure-g
           .pure-u-1-1.pure-u-sm-2-5
             a(href='#{data.meta.url}')
