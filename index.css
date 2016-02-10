@@ -6,7 +6,7 @@ body {
 }
 iframe {
   width: 100%;
-  min-height: 600px;
+  height: 1300px;
 }
 header {
   background-color: #fff;
@@ -114,14 +114,23 @@ footer p {
   .wrapper {
     width: 414px;
   }
+  iframe {
+    width: 414px;
+  }
 }
 @media screen and (max-width: 375px) {
   .wrapper {
     width: 375px;
   }
+  iframe {
+    width: 375px;
+  }
 }
 @media screen and (max-width: 320px) {
   .wrapper {
+    width: 320px;
+  }
+  iframe {
     width: 320px;
   }
 }
