@@ -4,6 +4,7 @@
     mainVisual: './images/2015.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2015/'
     date: '2015/09/19(土)〜23(水・祝)'
+    description: ''
   programs: [
     * name: 'キングコング野外上映'
       link: 'http://www.eiganokai.com/event/filmfes2015/kingkong.html'
@@ -127,6 +128,7 @@
     mainVisual: './images/2014.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2014/'
     date: '2014/09/12(金)〜15(月・祝)'
+    description: ''
   programs: [
     * name: '爆音バーホーベン'
       link: 'http://www.eiganokai.com/event/filmfes2014/ver.html'
@@ -260,6 +262,7 @@
     mainVisual: './images/2013.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2013/'
     date: '2013/09/13(金)〜16(月・祝)'
+    description: 'カナザワ映画祭の主役は観客の"あなた"である。スクリーンの登場人物と共に楽しむ参加型映画。さまざまな仕掛けを体験するギミック上映。音響を体感する爆音上映。あなた自身が参加する"祭り"を楽しんでいただきたい。'
   programs: [
     * name: 'オープニング特別上映！　『メトロポリス』ジョルジオ・モロダー版'
       link: 'http://www.eiganokai.com/event/filmfes2013/opening.html'
@@ -384,6 +387,7 @@
     mainVisual: './images/2012.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2012/'
     date: '2012/09/14(金)〜21(金)'
+    description: ''
   programs: [
     * name: 'オープニング野外上映『ショーガール』'
       link: 'http://www.eiganokai.com/event/filmfes2012/yagai.html'
@@ -536,6 +540,7 @@
     mainVisual: './images/2011.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2011/index.html'
     date: '2011/09/16(金)〜23(金)'
+    description: ''
   programs: [
     * name: '犯罪ゾーン'
       link: 'http://www.eiganokai.com/event/filmfes2011/hanzai.html'
@@ -671,6 +676,7 @@
     mainVisual: './images/2010.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2010/intro.html'
     date: '2010/09/17(金)〜24(金)'
+    description: '目から心臓に突き抜けるどす黒いショック！戦慄！驚異！怪奇！恐怖がズラリ！世界怪談大会！'
   programs: [
     * name: '日本怪談'
       link: 'http://www.eiganokai.com/event/filmfes2010/nippon.html'
@@ -794,6 +800,7 @@
     mainVisual: './images/2009.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2009/intro.html'
     date: '2009/09/19(土)〜25(金)'
+    description: '２００８年９月に開催した「カナザワ映画祭２００８フィルマゲドン」では、社会問題や世の中の不条理、不正といった、ある意味ネガティブな題材の作品を多数選定し上映した。あの頃はまだ表面的には世の中の状況が今ほどはひどくはなく、根拠のない楽観的な気分もある時期であった。そのため、「今は浮かれているが世の中には知られていない様々なひどいことがたくさんあるのだ」と知らしめる目的で作品選定を行った。だが、映画祭が予言したのか、開幕した9月13日（土）に金沢近郊の町で通り魔による大量殺傷事件が発生、犯人の男は映画祭スタッフのご近所さんだった。さらに映画祭の盛り上がりがピークを迎えた15日（月）にはリーマンショックが勃発。世界は大不況の奈落へと落ちていったのだった。この不況は２００９年7月現在もよくなる兆しもないままである。このような世相ではひたすらポジティブな映画を選定し上映する他はないと決意した。したがって、今年は「カナザワ映画祭２００９新世界秩序サバイバルガイド」と銘打ち混迷する時代を生き延びるヒントが詰まった作品や、強い意志で新しい時代を作り上げるポジティブな決意に溢れた作品を、それぞれの作品同士が対立する思想や主義であっても一切関知せず、ＳＦ、 伝記、宗教、ドキュメンタリー、アニメーションなどジャンルも問わず多数集めて上映する。各作品の主義主張自体にこの映画祭は賛同も否定もしない。が、これらの作品から溢れている硬い肯定的な決意だけは間違いなく本物である。かのインド独立の父である非暴力主義者ガンジーはこう語った「あなたの夢は何か、あなたの目的とするものは何か、それさえしっかり持っているならば、必ずや道は開かれるだろう」と。この映画祭が参加者になにかを残し少しでも世界が変わるきっかけとなるならばこれ以上の喜びはない。'
   programs: [
     * name: '未来世界'
       link: 'http://www.eiganokai.com/event/filmfes2009/futureworld.html'
@@ -895,6 +902,7 @@
     mainVisual: './images/2008.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2008/index.html'
     date: '2008/09/12(金)〜19(金)'
+    description: '“Filmageddon”とは「映像（film）の黙示録（armageddon）」を意味する造語である。この映画祭の上映作品に描かれる世界の数知れぬ矛盾や悲劇は、われわれの意にそわない、目を背けたいことかもしれないが、どうしようもない一つの厳然たる事実、仕方のない現実なのである。この特集を通して、その現実を直視する。'
   programs: [
     * name: 'クリスピン・グローヴァーのビッグ・スライドショウ'
       link: 'http://www.eiganokai.com/event/filmfes2008/crispin.html'
@@ -985,6 +993,7 @@
     mainVisual: './images/2007.jpg'
     url: 'http://www.eiganokai.com/event/filmfes2007/index.html'
     date: '2007/09/15(土)〜21(金)'
+    description: '今回の映画祭のポスタービジュアルを描いたイラストレーター 花くまゆうさく氏の『青いオトコの汁』という画集のタイトルから「青いオトコ」という言葉をお借りしました。花くま氏曰く、「中学生の魂百まで」。いくつになっても未熟な中学生男子気質が抜けない「青いオトコ」たち。そんな不器用ながら熱い心を持った「青いオトコ」たちの映画を集めました。'
   programs: [
     * name: '鈴木則文特集　則文祭り'
       link: 'http://www.eiganokai.com/event/filmfes2007/suzuki.html'

@@ -28,12 +28,13 @@ html
         h2 #{data.meta.name}
         .pure-g
           .pure-u-1-1.pure-u-sm-2-5
-            img(src='#{data.meta.mainVisual}')
+            a(href='#{data.meta.url}')
+              img(src='#{data.meta.mainVisual}')
           .pure-u-1-1.pure-u-sm-3-5
             p.fes-info
               i.fa.fa-calendar
               | #{data.meta.date}
-            p.fes-info 説明文説明文説明文
+            p.fes-info #{data.meta.description}
         each program in data.programs
           h3
             a.link(href='#{program.link}') #{program.name}
