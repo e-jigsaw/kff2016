@@ -66,6 +66,12 @@
         * name: '孤高の遠吠'
           link: 'http://www.eiganokai.com/event/filmfes2015/kokou.html'
           visual: 'http://www.eiganokai.com/event/filmfes2015/images/kokou3.png'
+        * name: '【トークイベント】小林勇貴×鈴木智彦'
+          link: 'http://www.eiganokai.com/event/filmfes2015/kokou.html#talk1'
+          visual: 'http://www.eiganokai.com/event/filmfes2015/images/suzuki.png'
+        * name: '【トークイベント】小林勇貴×工藤明男'
+          link: 'http://www.eiganokai.com/event/filmfes2015/kokou.html#talk2'
+          visual: 'http://www.eiganokai.com/event/filmfes2015/images/kudou.png'
       ]
     * name: '爆音メル・ギブソン'
       link: 'http://www.eiganokai.com/event/filmfes2015/mel.html'
@@ -206,7 +212,7 @@
     * name: '爆音戦争映画'
       link: 'http://www.eiganokai.com/event/filmfes2014/senso.html'
       movies: [
-        * name: 'U・ボート ディレクターズ・カット酬'
+        * name: 'U・ボート ディレクターズ・カット'
           link: 'http://www.eiganokai.com/event/filmfes2014/senso.html#uboat'
           visual: 'http://www.eiganokai.com/event/filmfes2014/images/uboat02.jpg'
         * name: 'フルメタルジャケット'
@@ -267,7 +273,7 @@
     * name: 'オープニング特別上映！　『メトロポリス』ジョルジオ・モロダー版'
       link: 'http://www.eiganokai.com/event/filmfes2013/opening.html'
       movies: [
-        * name: 'メトロポリス'
+        * name: 'ジョルジョ・モロダー版メトロポリス'
           link: 'http://www.eiganokai.com/event/filmfes2013/opening.html'
           visual: 'http://www.eiganokai.com/event/filmfes2013/images/opening.jpg'
       ]
@@ -290,7 +296,7 @@
         * name: 'バーニング'
           link: 'http://www.eiganokai.com/event/filmfes2013/tohotowa.html#burning'
           visual: 'http://www.eiganokai.com/event/filmfes2013/images/burning.jpg'
-        * name: '【トークイベント】東宝東和ギミック宣伝の極意　竹内康治(元・東宝東和宣伝次長)×檜垣紀六(広告図案士)×斉藤守彦(映画ジャーナリスト)'
+        * name: '【トークイベント】東宝東和ギミック宣伝の極意　竹内康治×檜垣紀六×斉藤守彦'
           link: 'http://www.eiganokai.com/event/filmfes2013/tohotowa.html'
           visual: 'http://www.eiganokai.com/event/filmfes2010/images/non.jpg'
       ]
