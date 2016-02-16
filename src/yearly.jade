@@ -7,7 +7,12 @@ html
     link(rel='stylesheet', href='//yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
     link(href='./index.css', type='text/css', rel='stylesheet')
-    // TODO: OGP
+    meta(property='og:title', content='#{year}年 | カナザワ映画祭オールタイム・ベスト募集')
+    meta(property='og:type', content='article')
+    meta(property='og:url', content='http://www.eiganokai.com/event/filmfes2016/alltimebest/#{year}.html')
+    meta(property='og:image', content='#{data.meta.mainVisual}')
+    meta(property='og:description', content='カナザワ映画祭オールタイム・ベスト募集')
+    meta(property='og:locale', content='ja_JP')
   body
     .wrapper
       header
