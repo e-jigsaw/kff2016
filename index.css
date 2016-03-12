@@ -55,6 +55,11 @@ article i {
 article img {
   width: 100%;
 }
+article .vc {
+  margin: 0.6em;
+  padding: 0.4em;
+  background-color: #eee;
+}
 article .comment p {
   margin: 0.4em;
 }
@@ -90,6 +95,9 @@ footer p {
   .wrapper {
     width: 790px;
   }
+  .visual {
+    margin-left: 12.5%;
+  }
 }
 @media screen and (min-width: 630px) {
   header .logo {
@@ -104,6 +112,9 @@ footer p {
   header .links a {
     margin: 10px;
     font-size: 12px;
+  }
+  .visual {
+    margin-left: 12.5%;
   }
   article {
     padding: 5%;
