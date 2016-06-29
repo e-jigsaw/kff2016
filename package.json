@@ -32,9 +32,9 @@
     "@jigsaw/lson": "^2.0.2",
     "chokidar-cli": "^1.2.0",
     "jade": "^1.11.0",
-    "livescript": "^1.4.0",
+    "livescript": "^1.5.0",
     "node-static": "^0.7.7",
-    "npm-run-all": "^1.5.2",
-    "stylus": "^0.54.2"
+    "npm-run-all": "^2.3.0",
+    "stylus": "^0.54.5"
   }
 }
