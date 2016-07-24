@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "kff2016",
+  "description": "kff2016",
+  "config": {
+    "DEST": "build",
+    "PORT": "3000"
+  },
+  "scripts": {
+    "build:jade": "lsc scripts/build.ls",
+    "build:jade:result": "lsc scripts/build-result.ls",
+    "build:styl": "stylus src --out $npm_package_config_DEST",
+    "build:assets": "cp -rf src/images $npm_package_config_DEST/images",
+    "serve": "static -p $npm_package_config_PORT $npm_package_config_DEST",
+    "watch": "npm-run-all -p watch:*",
+    "watch:jade": "chokidar '+(src/*.jade|src/*.lson)' -c 'npm run build:jade'",
+    "watch:jade:result": "chokidar 'src/result.jade' -c 'npm run build:jade:result'",
+    "watch:styl": "chokidar 'src/*.styl' -c 'npm run build:styl'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-jigsaw/kff2016.git"
+  },
+  "author": "jigsaw (http://jgs.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e-jigsaw/kff2016/issues"
+  },
+  "homepage": "https://github.com/e-jigsaw/kff2016#readme",
+  "dependencies": {
+    "@jigsaw/lson": "^2.0.2",
+    "chokidar-cli": "^1.2.0",
+    "jade": "^1.11.0",
+    "livescript": "^1.5.0",
+    "node-static": "^0.7.7",
+    "npm-run-all": "^2.3.0",
+    "stylus": "^0.54.5"
+  }
+}
