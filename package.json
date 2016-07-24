@@ -1,8 +1,7 @@
 {
+  "private": true,
   "name": "kff2016",
-  "version": "0.0.0",
   "description": "kff2016",
-  "main": "index.js",
   "config": {
     "DEST": "build",
     "PORT": "3000"
