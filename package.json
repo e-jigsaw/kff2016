@@ -14,6 +14,7 @@
     "serve": "static -p $npm_package_config_PORT $npm_package_config_DEST",
     "watch": "npm-run-all -p watch:*",
     "watch:jade": "chokidar 'src/*.jade' -c 'npm run build:jade'",
+    "watch:assets": "chokidar 'src/images/*' -c 'npm run build:assets'",
     "watch:styl": "chokidar 'src/*.styl' -c 'npm run build:styl'"
   },
   "repository": {
