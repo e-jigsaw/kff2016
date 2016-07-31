@@ -60,8 +60,6 @@ html
                 li.pure-menu-item
                   a(href='./rhs.html') ロッキー・ホラー・ショー
                 li.pure-menu-item
-                  a(href='./war.html') 戦争(映画)だ〜い好き！
-                li.pure-menu-item
                   a(href='./hardcorehenry.html') 爆音 HARDCORE HENRY
                 li.pure-menu-item
                   a(href='./bigslideshow.html') クリスピン・グローヴァーのビッグ・スライドショウ
@@ -76,8 +74,7 @@ html
         .pure-u-1-2.pure-u-sm-1-4
           .mainmenu-item
             a.pure-menu-link(href='./access.html') アクセス
-    block body
-    .wrapper
+      block body
       footer
         p Copyright &copy; 2007-2016, Kanazawa-Eiga-no-kai All rights reserved.
       script(type='text/javascript') !function(e,t){"use strict";function n(n){var i="pure-",r=i+"menu-active",u="role",s="aria-hidden",o=0,l=1,a=".pure-menu-active",h=".pure-menu-link",c=".pure-menu-children",d=e.hasOwnProperty&&e.hasOwnProperty("ontouchstart")?"touchstart":"mousedown",_=!0,p=this;this._state=l,this.show=function(){this._state!==o&&(this._dropdownParent.classList.add(r),this._menu.setAttribute(s,!1),this._state=o)},this.hide=function(){this._state!==l&&(this._dropdownParent.classList.remove(r),this._menu.setAttribute(s,!0),this._link.focus(),this._state=l)},this.toggle=function(){this[this._state===l?"show":"hide"]()},this.halt=function(e){e.stopPropagation(),e.preventDefault()},this._dropdownParent=n,this._link=this._dropdownParent.querySelector(h),this._menu=this._dropdownParent.querySelector(c),this._firstMenuLink=this._menu.querySelector(h),this._link.setAttribute("aria-haspopup","true"),this._menu.setAttribute(u,"menu"),this._menu.setAttribute("aria-labelledby",this._link.getAttribute("id")),this._menu.setAttribute("aria-hidden","true"),[].forEach.call(this._menu.querySelectorAll("li"),function(e){e.setAttribute(u,"presentation")}),[].forEach.call(this._menu.querySelectorAll("a"),function(e){e.setAttribute(u,"menuitem")}),this._link.addEventListener("click",function(e){e.stopPropagation(),e.preventDefault(),p.toggle()}),t.addEventListener("keydown",function(e){var t,n,i,r,u;if(p._state===o&&!p._menu.querySelector(a))if(t=p._menu.querySelector(":focus"),27===e.keyCode)p.halt(e),p.hide();else if(_&&40===e.keyCode){for(p.halt(e),i=t?t.parentNode.nextSibling:null;i&&1!==i.nodeType;)i=i.nextSibling;u=i?i.querySelector(".pure-menu-link"):null,t?u&&u.focus():p._menu.querySelector(".pure-menu-link").focus()}else if(_&&38===e.keyCode){for(p.halt(e),n=t?t.parentNode.previousSibling:null;n&&1!==n.nodeType;)n=n.previousSibling;r=n?n.querySelector(".pure-menu-link"):null,t?r&&r.focus():p._menu.querySelector(".pure-menu-item:last-child .pure-menu-link").focus()}}),t.addEventListener(d,function(e){var t=e.target;t===p._link||p._menu.contains(t)||(p.hide(),p._link.blur())})}function i(){for(var e=t.querySelectorAll(".pure-menu-has-children"),i=0;i<e.length;i++){new n(e[i])}}i()}(this,this.document);
