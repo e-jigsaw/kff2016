@@ -50,7 +50,7 @@ header
     p
       margin 0
 
-#feature
+#feature, #schedule
   font-family "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif
 
   h1
@@ -102,9 +102,37 @@ header
         font-size 12px
         color #333
 
-#toppage, #feature
+#toppage, #feature, #schedule
   .wrapper
     background-color #fafafa
+
+#schedule
+  p
+    margin 0
+    padding 0
+
+  table
+    width 100%
+    table-layout fixed
+
+    thead
+      td
+        background-color #ddd
+
+    td
+      padding 5px
+      background-color #fff
+      text-align center
+
+      .title
+        font-size 16px
+
+      .time
+        font-size 12px
+        color #333
+
+  .info
+    text-align center
 
 footer
   p
