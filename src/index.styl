@@ -86,7 +86,7 @@ header
     p
       margin .5em
 
-#feature, #schedule, #toppage
+#feature, #schedule, #toppage, #ticketPage, #accessPage
   font-family "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif
 
   h1
@@ -138,9 +138,40 @@ header
         font-size 12px
         color #333
 
-#toppage, #feature, #schedule
+#toppage, #feature, #schedule, #ticketPage, #accessPage
   .wrapper
     background-color #fafafa
+
+#ticketPage, #accessPage
+  table
+    margin 0 auto
+    margin-top 20px
+    margin-bottom 20px
+
+    thead
+      td
+        background-color #ddd
+
+    td
+      text-align center
+
+  .content
+    padding 5px
+    margin-bottom 40px
+
+  .links
+    width 80%
+    margin 0 auto
+    margin-top 10px
+
+  .notice
+    font-size 12px
+    color #333
+
+  ul
+    padding 0
+    margin 0
+    list-style none
 
 #schedule
   p
